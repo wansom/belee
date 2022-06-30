@@ -9,10 +9,11 @@ export class AppComponent {
   title = 'beelee';
 constructor(){
   this.loadScript();
+  console.log("construcgtor")
 }
   ngOnInit(): void {
     this.loadScript();
-    console.log("app console log")
+    console.log("init")
   }
 
 
